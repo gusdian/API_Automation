@@ -4,13 +4,17 @@
   "description": "Tugas Pekanan 4",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/api-test"
+    "test": "mocha ./test/api-test --reporter mochawesome"
   },
   "author": "Dian Agus Prakoso",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.7",
     "jsonschema": "^1.4.1",
+    "mocha": "^10.2.0",
     "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
